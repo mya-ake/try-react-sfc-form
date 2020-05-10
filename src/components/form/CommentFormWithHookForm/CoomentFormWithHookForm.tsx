@@ -2,7 +2,6 @@ import React from 'react';
 import { useForm } from 'react-hook-form';
 import { BaseButton } from '~/components/base';
 import { BaseTextareaWithHookForm } from '~/components/hook-form-base';
-// import type { OnSubmit } from 'react-hook-form';
 
 interface FormValeus {
   comment: string;
