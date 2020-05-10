@@ -1,9 +1,10 @@
 import React from 'react';
+import type { Ref } from 'react';
 
 export interface BaseTextareaWithHookFormProps {
   name: string;
   defaultValue?: string;
-  inputRef: (element: HTMLTextAreaElement | null) => void;
+  inputRef: Ref<HTMLTextAreaElement>;
 }
 
 export const BaseTextareaWithHookForm: React.FC<BaseTextareaWithHookFormProps> = (
